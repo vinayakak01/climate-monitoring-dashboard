@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:url(image04.jpg) ;
+    background:url(image04.jpg) no repeat;
+    background-position: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #city-container {
+    margin-bottom: 20px;
+  }
+  
+  #weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .addCity{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .entercity{
+    width: 300px; /* You can adjust the width to your desired size */
+    padding: 10px; /* You can adjust the padding for better appearance */
+    font-size: 16px; /* You can adjust the font size */  }
+.button01{
+  width: 90px; /* You can adjust the width to your desired size */
+  padding: 10px; /* You can adjust the padding for better appearance */
+  font-size: 16px; /* You can adjust the font size */}
